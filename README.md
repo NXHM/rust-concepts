@@ -29,3 +29,10 @@ Se le realizan optimizaciones
 ```shell
 cargo build --release
 ```
+# Usar un proyecto de base
+Recomiendan usar un proyecto de base siempre para mantenerse acostumbrado a la manera de como Cargo hace los proyectos (carpeta src, target, release, etc).
+```shell
+git clone example.org/someproject
+cd someproject
+cargo build
+```
